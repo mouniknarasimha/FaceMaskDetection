@@ -53,7 +53,6 @@ while true && frameCount<400
         label = strcat(cr_label,' Detected face(s) = 0');
     end
     label_cell{1} = label;
-   % label_cell{2} = strcat('Date: ', date, ', Time: ', datestr(now,'HH:MM:SS.FFF')); % current date and time
     title(label_cell, 'FontSize', 24); % show the label    
     drawnow;
 
